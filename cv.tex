@@ -1,6 +1,6 @@
-% Diogo Moreira personal CV
-% I made this CV following this tutorial
-% http://www.howtotex.com/general/a-guide-to-building-a-plain-and-simple-latex-cv/
+% Douglas Gabriel personal CV
+% I made this CV with this template
+% https://github.com/diogomoreira/cv
 
 \documentclass[paper=a4,fontsize=11pt]{article}
 \usepackage{amsmath,amsfonts,amsthm} 
@@ -65,7 +65,7 @@
 %%% ------------------------------------------------------------
 \begin{document}
 
-\Name{Diogo D. Moreira}
+\Name{Douglas Gabriel Gouveia}
 
 %\sepspace
 
@@ -73,32 +73,36 @@
 %%% ------------------------------------------------------------
 \sepspace
 
-\PersonalEntry{Endereço}{Tabelião Antônio Holanda, 360 - Cajazeiras - PB}
-\PersonalEntry{Telefone}{+55 83 9655 1808}
-\PersonalEntry{E-mail}{\url{diogo.dmoreira@gmail.com}}
+\PersonalEntry{Endereço}{Rua Erotildes Aquino Rolim, 199 - Cajazeiras - PB}
+\PersonalEntry{Telefone}{+55 83 99386 8119}
+\PersonalEntry{E-mail}{\url{douglasxgabriel@gmail.com}}
 
 %%% Education
 %%% ------------------------------------------------------------
 \NewPart{Formação}{} 
 
-\EducationEntry{Especialista. MBA em Engenharia de Software}{2013-2014}{Faculdade Estácio iDEZ - João Pessoa - PB}{}
-\sepspace
-\EducationEntry{Tecnólogo. Análise e Desenvolvimento de Sistemas}{2008-2012}{Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - Cajazeiras - PB}{}
+\EducationEntry{Tecnólogo. Análise e Desenvolvimento de Sistemas}{2013-2016}{Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - Cajazeiras - PB}
 
 %%% Work experience
 %%% ------------------------------------------------------------
 \NewPart{Experiência Profissional}{}
 
-\WorkEntry{Professor Efetivo}{2014-presente}{Instituto Federal de Educação, Ciência e Tecnologia da Paraíba, Full-time}{Professor efetivo do Campus Cajazeiras - PB, lecionando a disciplina de Padrões de Projeto de Software para o CST em Análise de Sistemas e disciplinas de introdução a programação para os cursos superiores de Engenharia Civil e Automação Industrial}
+\WorkEntry{Diretor Presidente}{2014-2015}{Recursive Jr, Part-time}{Gerenciamento de equipes, agindo no recrutamento, integração funcional e motivação de consultores.
+Prospecção de clientes, firmando acordos e estabelecendo novas parcerias. Desenvolvimento de campanhas de marketing. Desenvolvimento de sites e sistemas Web utilizando HTML, CSS e JavaScript, além de tecnologias Java com Spring Framework, Maven, JPA/Hibernate, como também Jekyll.}
 \sepspace
 
-\WorkEntry{Engenheiro de Software}{2013-2014}{Phoebus Tecnologia, Full-time}{Desenvolvimento de sistemas de processamento de transações eletrônicas utilizando tecnologias Java com Spring Framework, Maven, JPA/Hibernate e Adobe Flex. Criação de relatórios utilizando Eclipse BIRT. Utilização de bancos de dados relacionais Oracle e Microsoft SQL Server. Documentação de sistemas para atividades de implantação, atualização e rollback de versões.}
-\sepspace
+\WorkEntry{Analista Desenvolvedor}{2014}{Recursive Jr, Part-time}{Desenvolvimento de aplicações corporativas com clientes desktop e web em Java utilizando a plataforma
+Java EE com as tecnologias EJB, JPA, Servlets, JSP, JSF 2.0.}
 
-\WorkEntry{Analista Desenvolvedor}{2012-2013}{Indra Company, Full-time}{Desenvolvimento de sistemas para o Tribunal de Justiça do Estado da Paraíba utilizando tecnologias Java (JSF 2.0 com Richfaces e Primefaces, JPA), HTML, CSS, XML. Além disso, trabalhei com Maven para automação de builds e Redmine.}
-\sepspace
+%%% Other experiences
+%%% ------------------------------------------------------------
+\NewPart{Outras Experiências}{}
 
-\WorkEntry{Analista Desenvolvedor}{2011-2012}{Recursive, Part-time}{Desenvolvimento de aplicações corporativas com clientes desktop e web em Java utilizando a plataforma Java EE com as tecnologias EJB, JPA, Servlets, JSP, JSF 2.0 com Primefaces. Desenvolvimento de aplicações web utilizando PHP, XHTML, CSS com banco de dados MySQL.}
+\WorkEntry{Monitor de Programação Orientada à Objetos}{2014 - 2015}{Instituto Federal de Educação, Ciência e Tecnologia da Paraíba - Cajazeiras - PB}{}
+
+\WorkEntry{Bolsista Programa Jovens Talentos Para Ciência}{2013-2014}{CAPES}{}
+
+\WorkEntry{Pesquisador Em Simulação de Redes Móveis com NS3}{2012}{CNPq}{}
 
 %%% Skills
 %%% ------------------------------------------------------------
@@ -106,46 +110,44 @@
 \NewPart{Habilidades}{}
 
 % Languages and Frameworks
-\SkillsEntry{Software}{\textbf{Java}, JPA, Servlets, JSP, JSF, EJB}
-\SkillsEntry{}{Spring Framework, MVC \& Data}
-\SkillsEntry{}{HTML5 \& CSS}
-\SkillsEntry{}{Adoble Flex + ActionScript 3.0}
+\SkillsEntry{Software}{\textbf{Java}, JPA, Servlets, JSP, Thymeleaf, JSF, EJB}
+\SkillsEntry{}{\textbf{Spring Framework}, Boot, MVC \& Data}
+\SkillsEntry{}{HTML5, CSS \& JavaScript}
+\SkillsEntry{}{JQuery, AngularJs, Polymer, Materialize \& Bootstrap}
+\SkillsEntry{}{Android, Cordova \& Ionic}
 \SkillsEntry{}{Projetos orientados a objeto utilizando UML}
 \SkillsEntry{}{Padrões de projeto orientado a objeto para aplicações desktop e web}
-\SkillsEntry{}{Android}
-\SkillsEntry{}{Shell Scripting}
-\SkillsEntry{}{Noções de desenvolvimento com C\# e ASP.NET MVC}
+\SkillsEntry{}{Noções de desenvolvimento com C \& Python}
 
 \sepspace
 
 % Databases
 \SkillsEntry{Databases}{PostgreSQL (+PostGIS)}
-\SkillsEntry{}{Microsoft SQL Server}
-\SkillsEntry{}{Oracle Database}
+\SkillsEntry{}{Neo4J}
+\SkillsEntry{}{Redis}
+\SkillsEntry{}{MongoDB}
 
 \sepspace
 
 % Tools
 
-\SkillsEntry{Ferramentas}{SCMs: CVS, SVN e GIT}
+\SkillsEntry{Ferramentas}{GIT}
 \SkillsEntry{}{Maven}
-\SkillsEntry{}{Tomcat, Glassfish, Jetty Server}
+\SkillsEntry{}{Tomcat, Glassfish}
 \SkillsEntry{}{JUDE / Astah}
-\SkillsEntry{}{SOAPUI}
-\SkillsEntry{}{Oracle SQL Developer}
-\SkillsEntry{}{Microsoft SQL Server Management}
-\SkillsEntry{}{Redmine}
+\SkillsEntry{}{Jekyll}
 
 \NewPart{Idiomas}{}
 \SkillsEntry{}{Português (nativo)}
-\SkillsEntry{}{Inglês (avançado)}
+\SkillsEntry{}{Inglês (médio)}
 
 %%% References
 %%% ------------------------------------------------------------
 
 \NewPart{Outras informações}{}
-\SkillsEntry{LinkedIn}{\url{http://br.linkedin.com/in/diogodmoreira/}}
-\SkillsEntry{Github}{\url{http://github.com/diogomoreira}}
-\SkillsEntry{Lattes}{\url{http://lattes.cnpq.br/2745996619940977}}
+\SkillsEntry{Site}{\url{http://douglasgabriel.github.io}}
+\SkillsEntry{LinkedIn}{\url{www.linkedin.com/in/douglasggouveia}}
+\SkillsEntry{Github}{\url{https://github.com/douglasgabriel}}
+\SkillsEntry{Lattes}{\url{http://lattes.cnpq.br/4795800104755832}}
 
 \end{document}
